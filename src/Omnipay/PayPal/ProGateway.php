@@ -29,10 +29,13 @@ class ProGateway extends AbstractGateway
     public function getDefaultParameters()
     {
         return array(
-            'username' => '',
-            'password' => '',
-            'signature' => '',
-            'testMode' => false,
+            'username' => 'clickrf-facilitator_api1.clickphotos.asia',
+            'password' => '1370503460',
+            'signature' => 'AiPC9BjkCyDFQXbSkoZcgqH3hpacArVIP5-c3gTKpsUzlDAiE4TQzpuM',
+            //'username' => 'clickrf_api1.clickphotos.asia',
+            //'password' => 'G8DQHK8KXTZQYRP5',
+            //'signature' => 'Ag9JVlxjw6oaChFMFT7yJtPzsVOVAOXxGKZ8sNK.agiZAuHpcdeRop-o',
+            'testMode' => true,
         );
     }
 

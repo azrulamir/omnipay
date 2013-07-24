@@ -116,7 +116,7 @@ class Currency
             'TOP' => array('numeric' => '776', 'decimals' => 2),
             'TRY' => array('numeric' => '949', 'decimals' => 2),
             'TWD' => array('numeric' => '901', 'decimals' => 2),
-            'USD' => array('numeric' => '840', 'decimals' => 2),
+            'USD' => array('numeric' => '840', 'decimals' => 0),
             'VND' => array('numeric' => '704', 'decimals' => 0),
             'VUV' => array('numeric' => '548', 'decimals' => 0),
             'WST' => array('numeric' => '882', 'decimals' => 2),

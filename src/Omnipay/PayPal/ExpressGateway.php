@@ -93,4 +93,19 @@ class ExpressGateway extends ProGateway
     {
         return $this->createRequest('\Omnipay\PayPal\Message\ExpressCompletePurchaseRequest', $parameters);
     }
+    
+    public function createInvoice()
+    {
+        return $this->createRequest('\Omnipay\PayPal\Message\ExpressCompletePurchaseRequest', $parameters);
+    }
+    
+    public function sendInvoice()
+    {
+        //
+    }
+    
+    public function createAndSendInvoice()
+    {
+        //
+    }
 }
